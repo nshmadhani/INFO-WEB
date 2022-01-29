@@ -1,0 +1,87 @@
+<style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .center {
+            width: 75%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .center-100 {
+            width: 100%;
+            margin: auto;
+        }
+
+        input {
+            display: inline;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 2px 2px 2px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 2px 2px 2px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            display: block;
+            width: 10%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45aaFF;
+        }
+
+        .icon {
+            display: inline;
+            width: 50px;
+            height: 50px;
+        }
+
+        h2 {
+            display: inline;
+            white-space: nowrap;
+        }
+
+        .heading {
+            display: inline-flex;
+            width: 10%;
+            gap: 5px;
+        }
+
+        .hero-img {
+            display: block;
+            width: 500px;
+            height: auto;
+            margin: auto;
+            padding: 10px;
+
+        }
+    </style>

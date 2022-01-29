@@ -1,0 +1,123 @@
+table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+
+        table {
+            width: 75%;
+        }
+
+        .center {
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input {
+            display: inline;
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            display: inline-block;
+            width: 10%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45aaFF;
+        }
+
+        img {
+            display: inline;
+            width: 50px;
+            height: 50px;
+        }
+
+        h2 {
+            display: inline;
+            white-space: nowrap;
+        }
+
+        .heading {
+            display: inline-flex;
+            width: 10%;
+            gap: 5px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        header h1 a, nav a {
+            margin-left: 2px;
+            text-decoration: none;
+            color: black;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        header h1 a {
+            font-size: xx-large;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            width: 75%;
+            margin: auto;
+            background-color: #fdfcff;
+        }
+
+
+        .hero-img {
+            background-image: url("https://assets-global.website-files.com/6132c0afe6b6c1e7d754b0c9/61807a8a2de00f32d7d043a2_Out_6 (2)-poster-00001.jpg");
+            
+        }
+
+        .hero-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: xx-large;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        article h2 {
+            text-align: center;
+            font-size: xx-large;
+        }
+        article {
+            width: 100%;
+        }
+        article p {
+            text-align: start;
+            font-size: large;
+        }
